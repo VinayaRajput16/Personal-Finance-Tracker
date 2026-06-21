@@ -1,0 +1,23 @@
+src/
+├── api/
+│   ├── authApi.js
+│   ├── expenseApi.js
+│   └── incomeApi.js
+├── components/
+│   ├── Navbar.jsx
+│   ├── ExpenseForm.jsx
+│   ├── IncomeForm.jsx
+│   ├── ExpenseList.jsx
+│   ├── IncomeList.jsx
+│   ├── SummaryCards.jsx
+│   └── Charts/
+│       ├── ExpensePieChart.jsx
+│       └── MonthlyTrendChart.jsx
+├── context/
+│   └── AuthContext.jsx
+├── pages/
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   └── Dashboard.jsx
+├── routes/
+    └── ProtectedRoute.jsx
