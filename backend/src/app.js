@@ -10,10 +10,9 @@ import expenseRoutes from './routes/expenseRoutes.js';
 dotenv.config();
 
 const app = express();
-app.use(cors());
-// app.use(cors({
-//     origin: process.env.CLIENT_URL
-// }));
+app.use(cors({
+    origin: process.env.CLIENT_URL || "http://localhost:5173"
+}));
 app.use(express.json());
 
 console.log("APP LOADED");
